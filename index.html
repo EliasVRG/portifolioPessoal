@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <link rel="shortcut icon" type="imagex/png" href="./css/img/Gunz-3.png">
+    <link rel="icon" type="image/x-icon" href="./css/img/dragao.png">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -31,7 +31,7 @@
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#certificat">Certificados</a></li>
-                <li><a href="#contacts">Contatos</a></li>
+                <li class="mr-2"><a href="#contacts">Contatos</a></li>
             </ul>
         </nav>
     </section>
@@ -84,6 +84,21 @@
                             <img src="./svg/icons8-typescript-28.png" alt="type-icon">
                         </div>
                     </li>
+                    <li>
+                        <div data="Nginx">
+                            <img src="data:image/png;base64,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">
+                        </div>
+                    </li>
+                    <li>
+                        <div data="Bootstrap">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD/0lEQVR4nO2Y3WtcRRiHV+g/IKg9s9pcWJVeCt4VEdS01ptetje9akVNztkoggW/GlExMUKhUkigBQPFgFUsTYooSC1VaSghwS+K0aqtSUy2aXaTTfYjOzNPmXN2sysmu2d2YzbFfeHH3rzM+T3vvO/sOROJNKMZzfh/RGeELW0t3LkR6oywZd2Me1H2ew5jrkB5AjZCrnmWw1j7VvbVZ15weKNMe2tpKy/XZL7jXh70BLLRAK4g334fD9RS/Vcbbd4rQbxiDeAK+jYRQF8tO9DfaONeSf32O+AwsAmM48vhI3sAwScNNy5WdNoawBMMhVm8exf/DA3aSIGSoPKQz0D8D82lAU3P0zXMgMOg/Q44jNoCFI1rWTIvlzUyFyif1SwvaYa6LQEEI5b2ucN1SIQFKK/4lx8UdEzzxTHNV72a0UFNel6Tz2iW0wHEyWesZmDOeLJpnx1hF/cBCuZlbu281x6GqSuB+dyiZvxbbbcLUR4KD+DwXGiA1rJez1Y2dfIQvvlsSrM4q4lFrebgeZsdGLYCMH2+HLRIpdyuJyG7oMkuKOauK9s5uBTKfEyw22bhrlZKA5quDNDvarLzikxSMXLGroU8oyitlc3fzXbPYcIWwJg31TftsVZez1MQ/zUwn4or3n7M0rzw2+ivtnu4f7WW2eE6HPEESdtFTVsUTxcD8FkngY7A2XfgwgnNla8D45mEYmZccXSvvXmvpKTn8IbxXA7QW+uCBsA/WQqnSy4VDKnp80yhXYzSCcXvw4q+A5oXWuoCoKDedQMoNz75s2byJ8WE0Y/Kb5v0XKClm4qlWcW1MUXPnnUE6BC0uIKYK5iuCcCvuPYrvVqOqfj7e+Dyac3iDcViXDH3p+KtnTXMQeDRM57/NQsv3oXwBFdtAYrtYqpcLX94QJOakaSmJd+dsj5KfzMeK55E7YJHrQCeYKXPTYtUyz++X7MwLVn4W3JjXNoA6FiUnZEw4TpcDLvwuwYgEQyp6e9q+Uf3at/8/JQkOSHp2Ba6+hciYSMW5aANQHFATX9Xyz/zpmJ+Uvqa+N5qBw6FBzB/aBYAxdMlNVMZ4Pg+zezVwLzR+d7wM7DqH1iVNroZCuBxfPOm+gbgXLfmXLf5VQx1KT5/T/HNh4rxi6XKG8V/kbz+SMjqO8xamfcBBCNhAcyxaF4PiqeL6XFfUyXD5bo+KunZbfUudNkewGEwLMCK8enVjSeuSSZ/kIx8qjgV07y0PbRxCjtw9nb/qP/YGsBcZWwC49R8rXLbX2x5dbzgbZarxcONNu7Vc8Xuv6E65Bpt3nXItkXZZg1QdjuhGwigXcGzkXrCfOS7gvO1fG7WoaR5pivYVZf5ZjSjGc2I/NdxCxYXR2hUdbejAAAAAElFTkSuQmCC">
+                        </div>
+                    </li>
+                    <li>
+                        <div data="Flask">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEZ0lEQVR4nO1Xa4xdUxQ+1ZI2HqFeIV6h4tFQVBk1c9Y6d2aaes4Qe60zM6UEJdIQRIgf6lFFPeOPPyQS0TLxbj2q7l3rzNQgGfFDvSIaIqQSJCJ+UDWyzjl35s6de+dOOn5c7C+ZZPbZ++yzv/X4vn2DwMPDw8PDw8PDw+N/h45Bd0TnpmV7Bv92gPADINQNsnz2VNa7fjdzsvnWwd79UPkOEF45nXOFSotA6NXCQHxyw8WWCRD+BJW/BKHnQnUnNVqPwkOg/CcqvwdCL6LyIAj/BMqf2xpUvgmEdoLQ6l0l4frdTFTuR+WRUN1ZDV8AoQ4Q/g2EnkWl60D5RxB6uPPdZQdNVorZB+KLys9aB9yBoPRKeWwkUenuYBrozIL2Fwi1TLowKrrj0kgK/WBRReVbQeKlIO4UUHag/MKSITd3Inm3VzWR7DnMGiUi/Np0iRgs8w2JoNBLqLQ2UjrX/iwjqHQzCF8OEl9SeCc+GISPmgqRKIkL4/c2InxP8A8QCRuVltU3CCeo9FmakYTZbXV7hNpzbKh8Tv33MiJWgmnmhG8D4YeqiVT2yNL3+/YBoftReT0IfQfCl5bnomLvkSD8Ogq9gcLbQPj8SiJRwosLCZ2GSm/aeUH4aZCufSuJrEahP0DpaxB3dVSM52fPew7AEp3diAgqPxEprzCRQKVVNYjcOzrOVOyp7H2+E5TfGpujB1F5jf1vYgNCV1QTAXHzjGjNMsNSfGZWg5xYmdh4bI7bp5CR7nK0I+WLq4mUD1eJhcMrdgehx1B582hGlC7LVXB9VORjxn0re77GRKjyfBMlTuhtEPoKE7qmLeHDo4RC6xcrmakSqYW82e8bPWwxnm8lgcqPm6xWZiTfsxWEPwTh30FcTxWRdSC0CZWkroeB8C2o/CsqPYJKG8x8TPaiIi2o5/YmtQ2JKG0wIUkHI8EMUNpuwcrm4uvtYKNrS9yVrVu1Gwg9aSJUMd5pwe3YEh+KQj9bNmt+sDDgTkShT0FpKwhdZSplDd8y5OaESlGd0rgrJaK0EUvxeROD4+ah0rcg9EW55FD5o9x4H0Xll603rcfyqA+D8PNmpCY6kTpK30n4yrwX16WWINSByjtMpEKNO2tFz5ptJFUvKzWljZZCa0qL5vhDwqyo5BZmyhafGiqfUL1f+2Dv0fbRQuLOKAvI4i0X7m0S3Zb0HWLjtBfyvS1oUbonReV5g+0PEp9uc2Pv0QITIpC+w4LaEUyvGd9Eyr2o/LGl0+5edRusWYEl7kKh77Os8DZUfibzFFo0pbtO02DEGstdmytHYvVtdZ2l0Zx+zMCaHi1Dbg4q35A5L/2SXiCVh9s3d+9vomDXlkqjNHMKlduCpsRIMAMkvjG9DihtN13PL5S358/XmounfpA6La+0bJnDh0oXBM2GJUNurplUeujyHcgk2vwg7aVUFneYB4HwB6lv5D7RtABZPttk1K79dhfKfrmZE/cc/5/4iezh4eHh4eHh4eHh4RHsGv4GNd2ZnI91JD4AAAAASUVORK5CYII=">
+                        </div>
+                    </li>
                 </ul>
                 
             </div>
@@ -112,7 +127,7 @@
     <section id="about">
         <div class="background-about">
             <div class="img-wrapper">
-                <img src="./css/img/img2.jpg" alt="img2-notebook">
+                <img src="./css/img/988729.jpg" alt="img2-notebook">
             </div>
         </div>
 
@@ -120,24 +135,22 @@
             <div class="section-subtitle">
                 <h2>
                     <p>💻</p>
-                    <p><span>Engenheiro</span>de Machine Learning</p>
+                    <p><span>Desenvolvedor</span> FullStack</p>
                 </h2>
             </div>
         
             <h3>
-                Sou um Engenheiro de Machine Learning com experiência em
-                <p>Python, Java, TensorFlow, Pytorch, Power BI, Qlik Sense</p>
+                Sou um Desenvolvedor FullSatck com experiência em
+                <p>Python, JavaScript, Nginx, Flask, Bootstrap, SQL, Vue.js, TypeScript</p>
             </h3>
             <h4>
-                Meu nome é Elias Victor, tenho 22 anos. Além da minha experiência em grandes empresas como Transpanorama, Antenas Aquario
-                e Amm/DiferenTI - também atuo como Freelancer. Atualmente estou aberto a oportunidades como Desenvolvedor/Engenheiro de Machine Learning,
-                Cientista de Dados e Analista de Dados/BI.
+                Meu nome é Elias Victor, tenho 20 anos e estou cursando o terceiro ano de Engenharia de Software. Atualmente, trabalho como Assistente de Desenvolvimento na Transpanorama, onde atuo predominantemente como Desenvolvedor FullStack Júnior.
             </h4>
             <h4>
                 Abaixo está o meu <p>currículo</p> para download.
             </h4>
             <div class="button-cta">
-                <a href="./public/document/Curriculum vitæ.pdf" download="CV-Caio-Araujo" aria-label="Baixar curriculo Elias Victor">
+                <a href="./public/document/curriculo-elias.pdf" download="CV-Elias-Victor" aria-label="Baixar curriculo Elias Victor">
                     currículo
                 </a>
             </div>
@@ -148,7 +161,7 @@
     <!-- Projects -->
     <section id="projects">
         <div class="projects-title">
-            <h2>PROJETOS 🧩</h2>
+            <h2>Projetos 🧩</h2>
         </div>
 
         <div class="container-projects">
@@ -158,8 +171,8 @@
                     <!--  content-project -->
                     <div class="swiper-slide card-project">
                         <div class="img-project">
-                            <a href="https://caiogunz.github.io/Study/" target="_blank">
-                                <img src="./css/img/estudosLogo.png" alt="img-estudosLogo">
+                            <a href="#" target="_blank">
+                                <img src="./css/img/estudaLogo1.jpeg" alt="img-estudosLogo">
                             </a>
                         </div>
         
@@ -167,101 +180,69 @@
                         <p>Esse site é onde guardo tudo que estudo sobre profissional ou pessoal mesmo, se você quiser pode usar para seu aperfeiçoamento também.</p>
         
                         <div class="cta-project">
-                            <a href="https://github.com/CaioGunz/Study" target="_blank">
+                            <a href="https://github.com/EliasVRG/Study" target="_blank">
                                 Código
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://caiogunz.github.io/Study/" target="_blank">
+                            <a href="#" target="_blank">
                                 Documentação
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
         
                     </div>
+
                     <div class="swiper-slide card-project">
                         <div class="img-project">
-                            <a href="https://github.com/CaioGunz/coletaEcommerceAutomatica" target="_blank">
-                                <img src="./css/img/webscrapingMercadoLivre.png" alt="img-WebScraping">
+                            <a href="https://github.com/EliasVRG/myFinances" target="_blank">
+                                <img src="./css/img/myfinances.png" alt="img-WebScraping">
                             </a>
                         </div>
         
-                        <span>WebScraping E-commerce</span>
-                        <p>Esse projeto faz Web Scraping dos principais e-commerces do Brasil</p>
+                        <span>My Finaces</span>
+                        <p>
+                            Este projeto destina-se ao registro das minhas despesas. Ainda está em desenvolvimento, mas já conta com uma interface de login e cadastro. Os usuários podem visualizar as últimas 5 transações ou um extrato geral, além de ter acesso a gráficos que mostram detalhadamente seus gastos.</p>
         
                         <div class="cta-project">
-                            <a href="https://github.com/CaioGunz/coletaEcommerceAutomatica" target="_blank">
+                            <a href="https://github.com/EliasVRG/myFinances" target="_blank">
                                 Código
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://caiogunz.github.io/coletaEcommerceAutomatica/" target="_blank">
-                                Documentação
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
                         </div>
         
                     </div>
                     <div class="swiper-slide card-project">
                         <div class="img-project">
-                            <a href="./css/img/relatorioVendas1.jpeg" target="_blank">
-                                <img src="./css/img/relatorioVendas1.jpeg" alt="img-relatorioVendas1">
+                            <a href="https://github.com/EliasVRG/codePython/tree/main/ConsultaCEP" target="_blank">
+                                <img src="./css/img/consultaCEP.png" alt="img-WebScraping">
                             </a>
                         </div>
         
-                        <span>Analíse de Vendas - Hashtag</span>
-                        <p>Esse projeto faz a análise de vendas de uma empresa fictícia. (para vizualizar é preciso baixar o arquivo no github, no momento está somente a imagem)</p>
+                        <span>Consulta de CEP</span>
+                        <p>Esse projeto busca informações com base no CEP informado. (para vizualizar é preciso baixar o arquivo no github, no momento está somente a imagem)</p>
         
                         <div class="cta-project">
-                            <a href="https://github.com/CaioGunz/powerBIProjects/tree/main/relatorioDeVendas%20-%20Hashtag" target="_blank">
-                                Projeto
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="./css/img/relatorioVendas1.jpeg" target="_blank">
-                                Análise
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-        
-                    </div>
-                    <div class="swiper-slide card-project">
-                        <div class="img-project">
-                            <a href="./css/img/relatorioDeProdução1.png" target="_blank">
-                                <img src="./css/img/relatorioDeProdução1.png" alt="img-relatorioDeProdução1">
-                            </a>
-                        </div>
-        
-                        <span>Análise de Produção - Hashtag</span>
-                        <p>Esse projeto faz a análise da produção de uma empresa fictícia. (para vizualizar é preciso baixar o arquivo no github, no momento está somente a imagem)</p>
-        
-                        <div class="cta-project">
-                            <a href="./css/img/relatorioDeProdução1.png" target="_blank">
-                                Projeto
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="/" target="_blank">
-                                Análise
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-        
-                    </div>
-                    <div class="swiper-slide card-project">
-                        <div class="img-project">
-                            <a href="https://github.com/CaioGunz/BuscadorDeCep" target="_blank">
-                                <img src="./css/img/buscadorDeCEP.png" alt="img-buscadorDeCEP">
-                            </a>
-                        </div>
-        
-                        <span>Buscador de CEP</span>
-                        <p>Esse projeto faz a busca de CEPs do Brasil trazendo como dados: CEP, Endereço, Bairro, Cidade e UF. Ótimo para acoplar com sistemas de logística.</p>
-        
-                        <div class="cta-project">
-                            <a href="https://github.com/CaioGunz/BuscadorDeCep" target="_blank">
+                            <a href="https://github.com/EliasVRG/codePython/tree/main/ConsultaCEP" target="_blank">
                                 Código
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://github.com/CaioGunz/BuscadorDeCep/blob/main/README.md" target="_blank">
-                                Documentação
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+        
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="img-project">
+                            <a href="https://github.com/EliasVRG/codePython/tree/main/FeriadosNacionais" target="_blank">
+                                <img src="./css/img/FeriadosNacionais.png" alt="img-FeriadosNacionais">
+                            </a>
+                        </div>
+        
+                        <span>Feriados Nacionais</span>
+                        <p>Esse projeto mostra os feriados nacionais que ainda falta acontecer no ano informado.</p>
+        
+                        <div class="cta-project">
+                            <a href="https://github.com/EliasVRG/codePython/tree/main/FeriadosNacionais" target="_blank">
+                                Código
+                                <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
         
@@ -281,7 +262,7 @@
     <!-- Certificats -->
     <section id="certificat">
             <div class="projects-title">
-                <h2>CERTIFICADOS 🎓</h2>
+                <h2>Certificados 🎓</h2>
             </div>
     
             <div class="container-projects">
@@ -291,16 +272,16 @@
                         <!--  content-project -->
                         <div class="swiper-slide card-project">
                             <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/522e3c47-347f-460c-82da-01e7e02aad6a?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoPowerBi.png" alt="img-certificadoPowerBi">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/vue-3-componentes-diretivas-reatividade-framework/certificate?lang=pt_BR" target="_blank">
+                                    <img src="./css/img/cursoVueJS_part1.png" alt="img-cursoVueJS_part1">
                                 </a>
                             </div>
             
-                            <span>Formação Power Bi</span>
-                            <p>Certificado da Formação de Power BI de 8 cursos com carga horária de 72 Horas</p>
+                            <span>Curso Vue.JS</span>
+                            <p>Certificado do curso de VueJS 8 horas para conhecer a ferramenta</p>
             
                             <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/522e3c47-347f-460c-82da-01e7e02aad6a?lang=pt_BR" target="_blank">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/vue-3-componentes-diretivas-reatividade-framework/certificate?lang=pt_BR" target="_blank">
                                     Ver Certificado
                                     <i class="fa-solid fa-certificate"></i>
                                 </a>
@@ -309,16 +290,88 @@
                         </div>
                         <div class="swiper-slide card-project">
                             <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/3ce166b6-fcba-43bd-9d15-af94d331d838?lang=pt_BR" target="_blank">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-html-css-v534235-534235/certificate?lang=pt_BR" target="_blank">
+                                    <img src="./css/img/certificadoHTMLCSS.png" alt="img-certificadoHTMLCSS">
+                                </a>
+                            </div>
+            
+                            <span>Formação HTML CSS</span>
+                            <p>Certificado da Formação de HTML e CSS 4 cursos com carga horária de 35 Horas</p>
+            
+                            <div class="cta-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-html-css-v534235-534235/certificate?lang=pt_BR" target="_blank">
+                                    Ver Certificado
+                                    <i class="fa-solid fa-certificate"></i>
+                                </a>
+                            </div>
+            
+                        </div>
+                        <div class="swiper-slide card-project">
+                            <div class="img-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-javascript-front-end-687029/certificate?lang=pt_BR" target="_blank">
+                                    <img src="./css/img/certificadoJSAlicacaoWeb.png" alt="img-certificadoJSAlicacaoWeb">
+                                </a>
+                            </div>
+            
+                            <span>Formação Aplicação Web com JavaScript</span>
+                            <p>Certificado da Formação de Aplicação Web com JavaScript 8 cursos com carga horária de 63 Horas</p>
+            
+                            <div class="cta-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-javascript-front-end-687029/certificate?lang=pt_BR" target="_blank">
+                                    Ver Certificado
+                                    <i class="fa-solid fa-certificate"></i>
+                                </a>
+                            </div>  
+            
+                        </div>
+                        <div class="swiper-slide card-project">
+                            <div class="img-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-typescript-697840/certificate" target="_blank">
+                                    <img src="./css/img/certificadoTYPESCRIPT.png" alt="img-certificadoTYPESCRIPT">
+                                </a>
+                            </div>
+            
+                            <span>Formação TypeScript</span>
+                            <p>Certificado da Formação de TypeScript 3 cursos com carga horária de 32 Horas</p>
+            
+                            <div class="cta-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/degree-typescript-697840/certificate" target="_blank">
+                                    Ver Certificado
+                                    <i class="fa-solid fa-certificate"></i>
+                                </a>
+                            </div>
+            
+                        </div>
+                        <div class="swiper-slide card-project">
+                            <div class="img-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/fundamentos-ux-entendendo-experiencia-usuario/certificate" target="_blank">
+                                    <img src="./css/img/certificadoUX.png" alt="img-certificadoUX">
+                                </a>
+                            </div>
+            
+                            <span>Curso UX Experiência de Usuário</span>
+                            <p>Certificado do curso de UX Experiência de Usuário 8 horas</p>
+            
+                            <div class="cta-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/fundamentos-ux-entendendo-experiencia-usuario/certificate" target="_blank">
+                                    Ver Certificado
+                                    <i class="fa-solid fa-certificate"></i>
+                                </a>
+                            </div>
+            
+                        </div>
+                        <div class="swiper-slide card-project">
+                            <div class="img-project">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/python-3-avancando-orientacao-objetos/certificate" target="_blank">
                                     <img src="./css/img/certificadoPythonPOO.png" alt="img-certificadoPythonPOO">
                                 </a>
                             </div>
             
-                            <span>Formação Python com POO</span>
-                            <p>Certificado da Formação de Python com POO de 3 cursos com carga horária de 25 Horas</p>
+                            <span>Curso Python POO</span>
+                            <p>Certificado do curso de Python POO 10 horas</p>
             
                             <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/3ce166b6-fcba-43bd-9d15-af94d331d838?lang=pt_BR" target="_blank">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/python-3-avancando-orientacao-objetos/certificate" target="_blank">
                                     Ver Certificado
                                     <i class="fa-solid fa-certificate"></i>
                                 </a>
@@ -327,157 +380,16 @@
                         </div>
                         <div class="swiper-slide card-project">
                             <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/ea51abaf-c16b-4807-b2fe-5be7e6fd9eea?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoQliksense.png" alt="img-certificadoQlikSense">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/vue-3-componentes-diretivas-reatividade-framework/certificate" target="_blank">
+                                    <img src="./css/img/certificadoVueJS_part2.png" alt="img-certificadoVueJS_part2">
                                 </a>
                             </div>
             
-                            <span>Formação Qlik Sense</span>
-                            <p>Certificado da Formação de Qlik Sense de 6 cursos com carga horária de 81 Horas</p>
+                            <span>Curso Vue.JS Entendendo Componentes, Diretivas e Reatividade</span>
+                            <p>Certificado do curso de VueJS 10 horas</p>
             
                             <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/ea51abaf-c16b-4807-b2fe-5be7e6fd9eea?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/1cd3e155-461b-4c99-8f0d-e8d53f4a59c8?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoPythonParaDataScience.png" alt="img-certificadoPPythonParaDataScience">
-                                </a>
-                            </div>
-            
-                            <span>Formação Python para Data Science</span>
-                            <p>Certificado da Formação de Python para Data Science de 8 cursos com carga horária de 69 Horas</p>
-            
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/1cd3e155-461b-4c99-8f0d-e8d53f4a59c8?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/22c393ac-4921-4cbd-b097-44f2cb69293e?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoModelagemDados.png" alt="img-certificadoPPythonParaDataScience">
-                                </a>
-                            </div>
-            
-                            <span>Formação Modelagem de dados</span>
-                            <p>Certificado da Formação de Modelagem de dados de 4 cursos com carga horária de 33 Horas</p>
-            
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/22c393ac-4921-4cbd-b097-44f2cb69293e?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/97d42435-5b60-463a-97d7-d440ec53470c?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoDataAnalysisGoogleSheets.png" alt="img-certificadoDataAnalysisGoogleSheets">
-                                </a>
-                            </div>
-            
-                            <span>Formação Data Analysis com Google Sheets</span>
-                            <p>Certificado da Formação de Data Analysis com Google Sheets de 4 cursos com carga horária de 35 Horas</p>
-            
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/97d42435-5b60-463a-97d7-d440ec53470c?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/7f2f4868-d147-45f8-a1f3-b3e509ad1928?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoDesenvolvaAplicaçõesWebJavascript.png" alt="img-certificadoDesenvolvaAplicaçõesWebJavascript">
-                                </a>
-                            </div>
-            
-                            <span>Formação Desenvolva aplicações Web com JavaScript</span>
-                            <p>Certificado da Formação Desenvolva aplicações Web com JavaScript de 8 cursos com carga horária de 60 Horas</p>
-            
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/7f2f4868-d147-45f8-a1f3-b3e509ad1928?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/d5e68c5e-6023-4834-becd-b5c0317bb35f?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoHTMLeCSSparaProjetosWeb.png" alt="img-certificadoHTMLeCSSparaProjetosWeb">
-                                </a>
-                            </div>
-            
-                            <span>Formação HTML e CSS para projetos web</span>
-                            <p>Certificado da Formação HTML e CSS para projetos web de 6 cursos com carga horária de 51 Horas</p>
-            
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/d5e68c5e-6023-4834-becd-b5c0317bb35f?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/019ad71f-9f8f-4fbb-91a6-af5938834552?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoJavaComBancoDeDados.png" alt="img-certificadoJavaComBancoDeDados">
-                                </a>
-                            </div>
-            
-                            <span>Formação Integre aplicações Java com Banco de dados</span>
-                            <p>Certificado da Formação Integre aplicações Java com Banco de dados de 3 cursos com carga horária de 32 Horas</p>
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/019ad71f-9f8f-4fbb-91a6-af5938834552?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/417baf30-bc20-41a4-b114-8a637922e18d?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoJavaComPOO.png" alt="img-certificadoJavaComPOO">
-                                </a>
-                            </div>
-            
-                            <span>Formação Java com Orientação a Objetos</span>
-                            <p>Certificado da Formação Java com Orientação a Objetos de 10 cursos com carga horária de 121 Horas</p>
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/417baf30-bc20-41a4-b114-8a637922e18d?lang=pt_BR" target="_blank">
-                                    Ver Certificado
-                                    <i class="fa-solid fa-certificate"></i>
-                                </a>
-                            </div>
-            
-                        </div>
-                        <div class="swiper-slide card-project">
-                            <div class="img-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/18f80fa5-fa32-4bd8-b54f-60759e1d300c?lang=pt_BR" target="_blank">
-                                    <img src="./css/img/certificadoExcelVBA.png" alt="img-certificadoExcelVBA">
-                                </a>
-                            </div>
-            
-                            <span>Formação Excel VBA</span>
-                            <p>Certificado da Formação Excel VBA de 8 cursos com carga horária de 78 Horas</p>
-                            <div class="cta-project">
-                                <a href="https://cursos.alura.com.br/degree/certificate/18f80fa5-fa32-4bd8-b54f-60759e1d300c?lang=pt_BR" target="_blank">
+                                <a href="https://cursos.alura.com.br/user/eliasvictor2452/course/vue-3-componentes-diretivas-reatividade-framework/certificate" target="_blank">
                                     Ver Certificado
                                     <i class="fa-solid fa-certificate"></i>
                                 </a>
@@ -542,7 +454,7 @@
     <!-- Footer -->
     <section id="footer">
         <div class="container-footer">
-            <h2>Elias Victor © 2024</h2>
+            <h2>Elias Victor © 2024 <img src="./css/img/dragao.png" alt="icon" style="width: 1.5vw;"></h2>
         </div>
     </section>
     <!-- End Footer -->

@@ -178,6 +178,7 @@ body {
 
   .navbar {
     max-width: 25vw;
+    margin-right: 5rem;
   }
 
   .navbar-links li {
